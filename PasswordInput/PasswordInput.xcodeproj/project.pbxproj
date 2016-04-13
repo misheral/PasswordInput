@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC127E591CBE86F400A095D5 /* PasswordAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FC127E581CBE86F400A095D5 /* PasswordAlert.m */; };
+		FCCB3BE21CBB7D1700A380AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3BE11CBB7D1700A380AB /* main.m */; };
+		FCCB3BE51CBB7D1700A380AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3BE41CBB7D1700A380AB /* AppDelegate.m */; };
+		FCCB3BE81CBB7D1700A380AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3BE71CBB7D1700A380AB /* ViewController.m */; };
+		FCCB3BEB1CBB7D1700A380AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCB3BE91CBB7D1700A380AB /* Main.storyboard */; };
+		FCCB3BEE1CBB7D1700A380AB /* PasswordInput.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3BEC1CBB7D1700A380AB /* PasswordInput.xcdatamodeld */; };
+		FCCB3BF01CBB7D1700A380AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCB3BEF1CBB7D1700A380AB /* Assets.xcassets */; };
+		FCCB3BF31CBB7D1700A380AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCB3BF11CBB7D1700A380AB /* LaunchScreen.storyboard */; };
+		FCCB3BFE1CBB7D1700A380AB /* PasswordInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3BFD1CBB7D1700A380AB /* PasswordInputTests.m */; };
+		FCCB3C091CBB7D1700A380AB /* PasswordInputUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3C081CBB7D1700A380AB /* PasswordInputUITests.m */; };
+		FCCB3C181CBB7DF900A380AB /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3C171CBB7DF900A380AB /* PasswordView.m */; };
+		FCCB3C1B1CBB85F600A380AB /* PasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCB3C1A1CBB85F600A380AB /* PasswordInputView.m */; };
+		FCCB3C1D1CBB936100A380AB /* trade.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCCB3C1C1CBB936100A380AB /* trade.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCB3BFA1CBB7D1700A380AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCB3BD51CBB7D1700A380AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCB3BDC1CBB7D1700A380AB;
+			remoteInfo = PasswordInput;
+		};
+		FCCB3C051CBB7D1700A380AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCB3BD51CBB7D1700A380AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCB3BDC1CBB7D1700A380AB;
+			remoteInfo = PasswordInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC127E571CBE86F400A095D5 /* PasswordAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordAlert.h; sourceTree = "<group>"; };
+		FC127E581CBE86F400A095D5 /* PasswordAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordAlert.m; sourceTree = "<group>"; };
+		FCCB3BDD1CBB7D1700A380AB /* PasswordInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB3BE11CBB7D1700A380AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCCB3BE31CBB7D1700A380AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCCB3BE41CBB7D1700A380AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCCB3BE61CBB7D1700A380AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCCB3BE71CBB7D1700A380AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCCB3BEA1CBB7D1700A380AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCCB3BED1CBB7D1700A380AB /* PasswordInput.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordInput.xcdatamodel; sourceTree = "<group>"; };
+		FCCB3BEF1CBB7D1700A380AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCB3BF21CBB7D1700A380AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCCB3BF41CBB7D1700A380AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB3BF91CBB7D1700A380AB /* PasswordInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB3BFD1CBB7D1700A380AB /* PasswordInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputTests.m; sourceTree = "<group>"; };
+		FCCB3BFF1CBB7D1700A380AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB3C041CBB7D1700A380AB /* PasswordInputUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordInputUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB3C081CBB7D1700A380AB /* PasswordInputUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputUITests.m; sourceTree = "<group>"; };
+		FCCB3C0A1CBB7D1700A380AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB3C161CBB7DF900A380AB /* PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
+		FCCB3C171CBB7DF900A380AB /* PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
+		FCCB3C191CBB85F600A380AB /* PasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordInputView.h; sourceTree = "<group>"; };
+		FCCB3C1A1CBB85F600A380AB /* PasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordInputView.m; sourceTree = "<group>"; };
+		FCCB3C1C1CBB936100A380AB /* trade.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = trade.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCB3BDA1CBB7D1700A380AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB3BF61CBB7D1700A380AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB3C011CBB7D1700A380AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCB3BD41CBB7D1700A380AB = {
+			isa = PBXGroup;
+			children = (
+				FCCB3BDF1CBB7D1700A380AB /* PasswordInput */,
+				FCCB3BFC1CBB7D1700A380AB /* PasswordInputTests */,
+				FCCB3C071CBB7D1700A380AB /* PasswordInputUITests */,
+				FCCB3BDE1CBB7D1700A380AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCB3BDE1CBB7D1700A380AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB3BDD1CBB7D1700A380AB /* PasswordInput.app */,
+				FCCB3BF91CBB7D1700A380AB /* PasswordInputTests.xctest */,
+				FCCB3C041CBB7D1700A380AB /* PasswordInputUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCB3BDF1CBB7D1700A380AB /* PasswordInput */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB3C1C1CBB936100A380AB /* trade.bundle */,
+				FCCB3BE31CBB7D1700A380AB /* AppDelegate.h */,
+				FCCB3BE41CBB7D1700A380AB /* AppDelegate.m */,
+				FCCB3BE61CBB7D1700A380AB /* ViewController.h */,
+				FCCB3BE71CBB7D1700A380AB /* ViewController.m */,
+				FCCB3BE91CBB7D1700A380AB /* Main.storyboard */,
+				FCCB3C191CBB85F600A380AB /* PasswordInputView.h */,
+				FCCB3C1A1CBB85F600A380AB /* PasswordInputView.m */,
+				FCCB3C161CBB7DF900A380AB /* PasswordView.h */,
+				FCCB3C171CBB7DF900A380AB /* PasswordView.m */,
+				FC127E571CBE86F400A095D5 /* PasswordAlert.h */,
+				FC127E581CBE86F400A095D5 /* PasswordAlert.m */,
+				FCCB3BEF1CBB7D1700A380AB /* Assets.xcassets */,
+				FCCB3BF11CBB7D1700A380AB /* LaunchScreen.storyboard */,
+				FCCB3BF41CBB7D1700A380AB /* Info.plist */,
+				FCCB3BEC1CBB7D1700A380AB /* PasswordInput.xcdatamodeld */,
+				FCCB3BE01CBB7D1700A380AB /* Supporting Files */,
+			);
+			path = PasswordInput;
+			sourceTree = "<group>";
+		};
+		FCCB3BE01CBB7D1700A380AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB3BE11CBB7D1700A380AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCCB3BFC1CBB7D1700A380AB /* PasswordInputTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB3BFD1CBB7D1700A380AB /* PasswordInputTests.m */,
+				FCCB3BFF1CBB7D1700A380AB /* Info.plist */,
+			);
+			path = PasswordInputTests;
+			sourceTree = "<group>";
+		};
+		FCCB3C071CBB7D1700A380AB /* PasswordInputUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB3C081CBB7D1700A380AB /* PasswordInputUITests.m */,
+				FCCB3C0A1CBB7D1700A380AB /* Info.plist */,
+			);
+			path = PasswordInputUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCB3BDC1CBB7D1700A380AB /* PasswordInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCB3C0D1CBB7D1700A380AB /* Build configuration list for PBXNativeTarget "PasswordInput" */;
+			buildPhases = (
+				FCCB3BD91CBB7D1700A380AB /* Sources */,
+				FCCB3BDA1CBB7D1700A380AB /* Frameworks */,
+				FCCB3BDB1CBB7D1700A380AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordInput;
+			productName = PasswordInput;
+			productReference = FCCB3BDD1CBB7D1700A380AB /* PasswordInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCCB3BF81CBB7D1700A380AB /* PasswordInputTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCB3C101CBB7D1700A380AB /* Build configuration list for PBXNativeTarget "PasswordInputTests" */;
+			buildPhases = (
+				FCCB3BF51CBB7D1700A380AB /* Sources */,
+				FCCB3BF61CBB7D1700A380AB /* Frameworks */,
+				FCCB3BF71CBB7D1700A380AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCB3BFB1CBB7D1700A380AB /* PBXTargetDependency */,
+			);
+			name = PasswordInputTests;
+			productName = PasswordInputTests;
+			productReference = FCCB3BF91CBB7D1700A380AB /* PasswordInputTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCCB3C031CBB7D1700A380AB /* PasswordInputUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCB3C131CBB7D1700A380AB /* Build configuration list for PBXNativeTarget "PasswordInputUITests" */;
+			buildPhases = (
+				FCCB3C001CBB7D1700A380AB /* Sources */,
+				FCCB3C011CBB7D1700A380AB /* Frameworks */,
+				FCCB3C021CBB7D1700A380AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCB3C061CBB7D1700A380AB /* PBXTargetDependency */,
+			);
+			name = PasswordInputUITests;
+			productName = PasswordInputUITests;
+			productReference = FCCB3C041CBB7D1700A380AB /* PasswordInputUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCB3BD51CBB7D1700A380AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lifecycle;
+				TargetAttributes = {
+					FCCB3BDC1CBB7D1700A380AB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FCCB3BF81CBB7D1700A380AB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCCB3BDC1CBB7D1700A380AB;
+					};
+					FCCB3C031CBB7D1700A380AB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCCB3BDC1CBB7D1700A380AB;
+					};
+				};
+			};
+			buildConfigurationList = FCCB3BD81CBB7D1700A380AB /* Build configuration list for PBXProject "PasswordInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCB3BD41CBB7D1700A380AB;
+			productRefGroup = FCCB3BDE1CBB7D1700A380AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCB3BDC1CBB7D1700A380AB /* PasswordInput */,
+				FCCB3BF81CBB7D1700A380AB /* PasswordInputTests */,
+				FCCB3C031CBB7D1700A380AB /* PasswordInputUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCB3BDB1CBB7D1700A380AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB3C1D1CBB936100A380AB /* trade.bundle in Resources */,
+				FCCB3BF31CBB7D1700A380AB /* LaunchScreen.storyboard in Resources */,
+				FCCB3BF01CBB7D1700A380AB /* Assets.xcassets in Resources */,
+				FCCB3BEB1CBB7D1700A380AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB3BF71CBB7D1700A380AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB3C021CBB7D1700A380AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCB3BD91CBB7D1700A380AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB3C1B1CBB85F600A380AB /* PasswordInputView.m in Sources */,
+				FCCB3BE81CBB7D1700A380AB /* ViewController.m in Sources */,
+				FCCB3C181CBB7DF900A380AB /* PasswordView.m in Sources */,
+				FC127E591CBE86F400A095D5 /* PasswordAlert.m in Sources */,
+				FCCB3BEE1CBB7D1700A380AB /* PasswordInput.xcdatamodeld in Sources */,
+				FCCB3BE51CBB7D1700A380AB /* AppDelegate.m in Sources */,
+				FCCB3BE21CBB7D1700A380AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB3BF51CBB7D1700A380AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB3BFE1CBB7D1700A380AB /* PasswordInputTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCB3C001CBB7D1700A380AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB3C091CBB7D1700A380AB /* PasswordInputUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCB3BFB1CBB7D1700A380AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCB3BDC1CBB7D1700A380AB /* PasswordInput */;
+			targetProxy = FCCB3BFA1CBB7D1700A380AB /* PBXContainerItemProxy */;
+		};
+		FCCB3C061CBB7D1700A380AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCB3BDC1CBB7D1700A380AB /* PasswordInput */;
+			targetProxy = FCCB3C051CBB7D1700A380AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCCB3BE91CBB7D1700A380AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCB3BEA1CBB7D1700A380AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCCB3BF11CBB7D1700A380AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCB3BF21CBB7D1700A380AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCCB3C0B1CBB7D1700A380AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FCCB3C0C1CBB7D1700A380AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCCB3C0E1CBB7D1700A380AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.PasswordInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCCB3C0F1CBB7D1700A380AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PasswordInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.PasswordInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FCCB3C111CBB7D1700A380AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordInputTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.PasswordInputTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordInput.app/PasswordInput";
+			};
+			name = Debug;
+		};
+		FCCB3C121CBB7D1700A380AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordInputTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.PasswordInputTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordInput.app/PasswordInput";
+			};
+			name = Release;
+		};
+		FCCB3C141CBB7D1700A380AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordInputUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.PasswordInputUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordInput;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCCB3C151CBB7D1700A380AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordInputUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.PasswordInputUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordInput;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCB3BD81CBB7D1700A380AB /* Build configuration list for PBXProject "PasswordInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB3C0B1CBB7D1700A380AB /* Debug */,
+				FCCB3C0C1CBB7D1700A380AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCB3C0D1CBB7D1700A380AB /* Build configuration list for PBXNativeTarget "PasswordInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB3C0E1CBB7D1700A380AB /* Debug */,
+				FCCB3C0F1CBB7D1700A380AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCB3C101CBB7D1700A380AB /* Build configuration list for PBXNativeTarget "PasswordInputTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB3C111CBB7D1700A380AB /* Debug */,
+				FCCB3C121CBB7D1700A380AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCB3C131CBB7D1700A380AB /* Build configuration list for PBXNativeTarget "PasswordInputUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCB3C141CBB7D1700A380AB /* Debug */,
+				FCCB3C151CBB7D1700A380AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCCB3BEC1CBB7D1700A380AB /* PasswordInput.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCCB3BED1CBB7D1700A380AB /* PasswordInput.xcdatamodel */,
+			);
+			currentVersion = FCCB3BED1CBB7D1700A380AB /* PasswordInput.xcdatamodel */;
+			path = PasswordInput.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCCB3BD51CBB7D1700A380AB /* Project object */;
+}
